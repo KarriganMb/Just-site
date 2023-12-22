@@ -177,3 +177,7 @@ table {
   table{
     color: #9146FF;
   }
+  .about-img{
+    width: 100%;
+    height: 300px;
+  }
