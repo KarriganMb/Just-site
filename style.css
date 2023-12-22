@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Play', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    background-color: #9146FF;
+    color: white;
+}
+body{
+    background-color: #fff;
+    color: #9146FF;
+}
+.top_menu li{
+    display: inline-block;
+    padding: 20px;
+}
+.logo, .top_menu{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    padding: 10px;
+    height: 40px;
+    width: 150px;
+}
+
+a{
+    color: #000;
+}
+
+
+main{
+}
+
+.welcome{
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('club.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position:inherit;
+    float:inherit;
+}
+.welcome-text{
+    text-align: center;
+    padding-top: 150px;
+}
+.welcome img{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.home h1{
+    text-align: center;
+}
+.home-cost form{
+    border: 2px solid #9146FF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+.home-cost ul{
+    font-size: 28px;
+    margin-left: 25%;
+}
+footer{
+    background-color: #9146FF;
+    color: #000;
+}
+footer img{
+    display: block;
+    margin: auto;
+    padding: auto;
+    height: 80px;
+    width: 300px;
+}
+
+.footer-info{
+    display: inline-block;
+    margin: 10px;
+}
+
+.icons{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+}
+
+
+.LA{
+    height: 450px;
+}
+.LA-H1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  button {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #9146FF;
+    color: black;
+    font-size: 18px;
+  }
+
+
+.project-container{
+    text-align: center;
+    font-size: 25px;
+    margin: 50px;
+}
+
+
+.about-container{
+    text-align: center;
+    height: 500px;
+}
+
+
+
+
+
+
+
+.ERR404{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.that-shit-404{
+    color: red;
+}
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background-color: #000000b6;
+    font-weight: bold;
+  }
+  tr:nth-child(even) {
+    background-color: #00000000;
+  }
+  .home{
+    background-color: #fff;
+  }
+  table{
+    color: #9146FF;
+  }
